@@ -1,0 +1,97 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image:url(bgimage.jpg);
+    background-size: 150vh;
+}
+#logo {
+    max-width: 150px;
+}
+#pencilman {
+    max-width: 88px;
+}
+#mainhead {
+    margin: 0px 0px 20px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 45pt;
+}
+header {
+    float:inline-start
+}
+nav a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: rgb(3, 3, 3);
+    margin-right: 30px;
+    text-decoration: none;
+    padding: 0px;
+    text-align: center;
+    font-size: 14pt;
+}
+#sectionwhyus {
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#sectionwhyus li {
+    padding: 0px 0px 10px 20px;
+}
+#services {
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#services li {
+    padding: 0px 0px 10px 20px;
+}
+#contactus {
+    text-align: center;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.274);
+}
+#contactus li {
+    padding: 0px 0px 10px 20px;
+}
+button#e-mail {
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    color: rgb(11, 107, 11);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    border-color: greenyellow;
+}
+button#e-mail:hover {
+    color: rgb(255, 255, 255);
+    background-color: green;
+}
+img#instagram {
+    width: 45px;
+    clip-path: circle(50% at 51% 50%);
+}
+img#facebook {
+    width: 105px;
+    margin-left: 15px;
+}
+img#twitter {
+    width: 45px;
+    margin-left: 15px;
+    clip-path: circle(80% at 50% 50%);
+}
+img#whatsapp {
+    width: 45px;
+    margin-left: 15px;
+    clip-path: circle(60% at 50% 50%);
+}
+
+.content-container {
+    width: 700px;
+    margin: 0 auto;
+}
